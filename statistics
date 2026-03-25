@@ -1,0 +1,14 @@
+import numpy as np
+import pandas as pd
+marks ={85,48,56,95}
+print("List of marks:", marks)
+arr = np.array([1,2,3,4,5])
+print("\nArray Elements:", arr)
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 40]
+}
+df = pd.DataFrame(data)
+print("\nDataFrame:", df)
+matrix = np.array([[1,2],[3,4]])
+print("\nMatrix:",matrix )
